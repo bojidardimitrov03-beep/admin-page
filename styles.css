@@ -154,3 +154,37 @@ body{
     height: 16px;
 }
 
+
+.projectsCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.SuperCoolProject, .lessCoolProject, .impossibleApp, 
+.easyPeasyApp, .adBlocker, .moneyMaker{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-left: 5px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.3);
+    
+}
+
+.projectTitle{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.projectDetails{
+    opacity: 0.6;
+}
+
+
+.projectButtons{
+    display: flex;
+    justify-content: end;
+}
+
