@@ -161,6 +161,14 @@ body{
     gap: 10px;
 }
 
+
+.contentSection{
+    display: flex;
+}
+.announcmentAndTrending{
+    display: flex;
+    flex-direction: column;
+}
 .SuperCoolProject, .lessCoolProject, .impossibleApp, 
 .easyPeasyApp, .adBlocker, .moneyMaker{
     display: flex;
