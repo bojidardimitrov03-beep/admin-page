@@ -1,10 +1,142 @@
-body{
-    display : flex;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Roboto;
 }
 
-.icons {
+
+body{
+    display : flex;
+    width: 1200px;
+    background-color: rgb(215, 215, 215);
+    
+    
+}
+
+.leftSide{
+    background-color: rgb(44, 148, 246);
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+.navLinks{
+    display: flex;
+    gap: 10px;
+}
+
+.dashboardItem{
+    padding: 10px;
+}
+
+.secondSection{
+    padding: 10px;
+}
+
+.thirdSection{
+    padding: 10px;
+}
+
+.header{
+    background-color: white;
+}
+
+.firstHeaderRow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.searchIcon{
+    fill: black;
+    width: 24px;
+    height: 24px;
+}
+
+.notificationsIcon{
+    fill: black;
+    width: 24px;
+    height: 24px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.searchBar{
+    background-color: rgb(193, 191, 191);
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.notifications{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: 18px;
+    
+}
+
+
+.userAvatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.secondHeaderRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1);
+    height:fit-content;
+}
+
+
+.userGreetings{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 20px;
+    font-size: 18px;
+}
+
+#new, #upload, #share{
+    background-color: rgb(44, 148, 246);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px ;
+    font-size: 16px;
+    color: white;
+    
+}
+
+.UserButtons{
+    display: flex;
+    gap: 20px;
+    padding-right: 40px;
+}
+
+
+
+.leftIcons {
     width: 16px;
     height: 16px;
+    fill: white;
 }
 
 .addStarButton{
